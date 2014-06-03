@@ -1,0 +1,261 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+section {
+		
+	  	position:relative;
+}
+
+
+
+.one {
+	height:4em;
+	/*outline:1px solid orange;*/
+}
+
+.two{
+	height:8em;
+	margin-top:7%;
+	/*outline:1px solid blue;*/
+	background-image:url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/google-logo.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.three {
+	height:3em;
+	margin-top:3%;
+	/*outline:1px solid green;*/
+	
+}
+
+.four {
+	height:3em;
+	margin-top:18%;
+	/*outline:1px solid purple;*/
+	background:#f2f2f2;
+}
+
+.onea {
+height:3em;
+/*width:50%;
+background:red;
+top:50%;
+left:50%;
+margin-top:-0.5em;
+margin-left:-0.5em;
+outline: 1px solid black;*/
+position:relative;
+float:right;
+top:8px;
+right:16px;
+}
+
+.onea ul {
+position:relative;
+top:10px;
+}
+
+.onea li {
+display:inline-block;
+font-size:1em;
+/*outline: 1px dashed green;*/
+position:relative;
+bottom:3px;
+}
+
+input {
+border:0 none;
+background:white;
+}
+
+.onea ul li:nth-child(4) input{
+	
+	margin:0;
+	padding:0;
+	width:22px;
+	height:22px;
+	background-image:url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/grid.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	/*color:red;*/
+}
+
+.onea ul li:nth-child(4) {
+	top:3px;
+}
+
+.onea ul li:nth-child(5) {
+	margin-right:2px;
+	
+}
+
+.onea ul li:nth-child(5) input{
+	height:22px;
+	/*width:44px;*/
+	/*margin-right:3px;*/
+	background:-webkit-linear-gradient(white,#4c8bff 20%);
+	padding-right:6px;
+	border-radius:2px;
+	display:block;
+	position:relative;
+	/*padding-left:3px;*/
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+.threec {
+width:120px;
+position:relative;
+float:left;
+height:26px;
+margin:0;
+padding:0;
+margin-left:20px;
+background:#d4d4d2;
+border:1px solid #c3c3c3;
+font-family:Arial;
+font-weight:bold;
+color:#424646;
+border-radius:2px;
+}
+
+.threed {
+position:relative;
+float:right;
+width:120px;
+padding:0px;
+margin:0px;
+height:26px;
+margin-right:20px;
+background:#d4d4d2;
+border:1px solid #c3c3c3;
+font-family:Arial;
+font-weight:bold;
+color:#424646;
+border-radius:2px;
+}
+
+.type {
+	/*width:600px;*/
+	width:100%;
+	border:1.5px solid #b6b6b6;
+	/*position:relative;
+	left:374.5px;*/
+	/*margin:0px;
+	padding:0px;*/
+	height:24px;
+	/*top:-21px;*/
+	margin:0 auto;
+}
+
+.type:hover {
+	border:2px solid #929698;
+}
+
+.threea {
+	/*position:relative;*/
+	width:600px;
+	height:22px;
+	/*left:374.5px;
+	
+	top:-21px;*/
+	background-image:url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png");
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+img {
+height:20px;
+width:auto;
+position:absolute;
+top:-22px;
+right:2px;
+}
+
+.threeb {
+
+	height:2em;
+	width:300px;
+	/*outline:1px solid yellow;*/
+	/*position:relative;
+	left:524.5px;*/
+	margin:0 auto;
+	margin-top:2%;
+
+}
+
+
+
+.foura {
+position:absolute;
+top:30%;
+left:3%;}
+
+.four li {
+
+display:inline-block;
+/*outline:1px dashed red;*/
+font-family:Arial;
+
+
+}
+
+.fourb {
+position:absolute;
+top:30%;
+right:3%;
+}
+
+.four input {background:#f2f2f2;
+font-weight:bold;
+}
+
+span {color:red;}
+
+.adj {
+width:100%;
+height:100%;
+}
